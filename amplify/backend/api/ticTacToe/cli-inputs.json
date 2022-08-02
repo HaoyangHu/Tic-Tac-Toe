@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "ticTacToe",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/haoyanghu/Desktop/tic-tac-toe/amplify/backend/api/ticTacToe/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authtictactoe4708a7af"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-07-24T21:20:00.290Z",
+        "keyDescription": "test"
+      },
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
+  }
+}

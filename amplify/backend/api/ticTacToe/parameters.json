@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "ticTacToe",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtictactoe4708a7af",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-07-17T21:20:00.982Z"
+}
